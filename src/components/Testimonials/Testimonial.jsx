@@ -1,7 +1,7 @@
 import React from "react";
 import "./Testimonial.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import { swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 import  Pagination  from "swiper";
 import "swiper/css/pagination";
@@ -44,8 +44,8 @@ const Testimonial = () => {
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
       </div>
-      <Swiper
-        // install Swiper modules
+      <swiper
+        // install swiper modules
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
@@ -60,7 +60,7 @@ const Testimonial = () => {
             </SwiperSlide>
           );
         })}
-      </Swiper>
+      </swiper>
     </div>
   );
 };
