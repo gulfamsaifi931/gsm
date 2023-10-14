@@ -23,12 +23,12 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           setDone(true);
-          form.reset();
         },
         (error) => {
           console.log(error.text);
         }
       );
+      e.target.reset();
   };
 
   return (
@@ -52,7 +52,7 @@ const Contact = () => {
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+          <span style={{color:'green'}}>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}

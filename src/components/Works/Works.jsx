@@ -27,7 +27,7 @@ const Works = () => {
           <spane>
           We use different type of technology
             <br />
-            like ReactJs, NodeJs,   MongoDb, Html, CSS, JavaScript, SQL, NextJs.
+            like ReactJs,   MongoDb, Html, CSS, JavaScript, SQL, NextJs, SASS.
             <br />
             and we also provides Software development services such as help plan, design, develop, modification, 
             <br />

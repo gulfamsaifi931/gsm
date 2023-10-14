@@ -19,7 +19,7 @@ const Footer = () => {
           <a href="https://www.facebook.com/profile.php?id=100091512731855" target="_blank" rel="noreferrer">
           <Facebook color="white" size={"3rem"} />
           </a>
-          <a href="https://github.com/GulfamASB/Gulfaam" target="_blank" rel="noreferrer">
+          <a href="https://github.com/GulfamASB" target="_blank" rel="noreferrer">
           <Gitub color="white" size={"3rem"} />
           </a>
         </div>
