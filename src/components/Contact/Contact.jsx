@@ -2,6 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
+import {Helmet} from "react-helmet/es/Helmet";
 
 const Contact = () => {
   const theme = useContext(themeContext);
@@ -33,6 +34,14 @@ const Contact = () => {
 
   return (
     <div className="contact-form" id="contact">
+        <Helmet>
+                <title>Gulfam saifi</title>
+                <link rel="icon" href={"https://gulfam.in"}/>
+                <meta name="gulfam saifi" content={"gulfam saifi"}/>
+                <meta name="gulfam saifi" content={"gulfamsaifi"}/>
+                <meta property="og:gulfam saifi" content={"og:gulfam saifi"}/>
+                <meta property="og:gulfam saifi" content={"og:gulfam saifi"}/>
+             </Helmet>
       {/* left side copy and paste from work section */}
       <div className="w-left">
         <div className="awesome">

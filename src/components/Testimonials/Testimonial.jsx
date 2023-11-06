@@ -2,7 +2,7 @@ import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
+import {Helmet} from "react-helmet/es/Helmet";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import profilePic1 from "../../img/profile1.png";
@@ -36,6 +36,14 @@ const Testimonial = () => {
 
   return (
     <div className="t-wrapper" id="testimonial">
+        <Helmet>
+                <title>Gulfam saifi</title>
+                <link rel="icon" href={"https://gulfam.in"}/>
+                <meta name="gulfam saifi" content={"gulfam saifi"}/>
+                <meta name="gulfam saifi" content={"gulfamsaifi"}/>
+                <meta property="og:gulfam saifi" content={"og:gulfam saifi"}/>
+                <meta property="og:gulfam saifi" content={"og:gulfam saifi"}/>
+             </Helmet>
       <div className="t-heading">
         <span>Clients always get </span>
         <span>Exceptional Work </span>

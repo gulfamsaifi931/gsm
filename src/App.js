@@ -10,11 +10,13 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
-
+import {Helmet} from "react-helmet/es/Helmet";
 const Home = () => {
+  
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
+    
         <div
           className="App"
           style={{
@@ -22,6 +24,15 @@ const Home = () => {
             color: darkMode ? "white" : "",
           }}
         >
+             <Helmet>
+                <title>Gulfam saifi</title>
+                <link rel="icon" href={"https://gulfam.in"}/>
+                <meta name="gulfam saifi" content={"gulfam saifi"}/>
+                <meta name="gulfam saifi" content={"gulfamsaifi"}/>
+                <meta property="og:gulfam saifi" content={"og:gulfam saifi"}/>
+                <meta property="og:gulfam saifi" content={"og:gulfam saifi"}/>
+             </Helmet>
+
           <Navbar />
           <Intro />
           <Services />

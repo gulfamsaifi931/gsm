@@ -4,10 +4,18 @@ import Wave from "../../img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
-
+import {Helmet} from "react-helmet/es/Helmet";
 const Footer = () => {
   return (
     <div className="footer">
+        <Helmet>
+                <title>Gulfam saifi</title>
+                <link rel="icon" href={"https://gulfam.in"}/>
+                <meta name="gulfam saifi" content={"gulfam saifi"}/>
+                <meta name="gulfam saifi" content={"gulfamsaifi"}/>
+                <meta property="og:gulfam saifi" content={"og:gulfam saifi"}/>
+                <meta property="og:gulfam saifi" content={"og:gulfam saifi"}/>
+             </Helmet>
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
         <span>Gulfam.sviim@gmail.com</span>
