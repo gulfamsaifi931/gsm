@@ -25,7 +25,7 @@ const Home = () => {
           }}
         >
              <Helmet>
-                <title>Gulfam saifi</title>
+                <title>Gulfam saifi || Gulfaam</title>
                 <link rel="icon" href={"https://gulfam.in"}/>
                 <meta name="gulfam saifi" content={"gulfam saifi"}/>
                 <meta name="gulfam saifi" content={"gulfamsaifi"}/>
